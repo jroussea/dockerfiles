@@ -1,1 +1,1 @@
-# Atelier de Bio-Informatique Dockerfiles
+# Dockerfiles
