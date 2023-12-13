@@ -56,6 +56,16 @@ docker run -v /your/data/dir:/data -it cd-hit:tagname
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
 
+## Push to Docker Hub
+1. Rename tool with username
+```bash
+docker tag cd-hit:tagname <user-name>/cd-hit:tagname
+```
+2. Push to Docker Hub
+```bash
+docker push <user-name>/cd-hit:tagname
+```
+
 ## Retrieve the image from Docker Hub
 
 ```bash
