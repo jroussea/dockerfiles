@@ -52,7 +52,7 @@ docker run -v /your/data/dir:/data cd-hit cd-hit -i input.fa -o output -c 0.9 -n
 
 To run an interactive shell
 ```bash
-docker run -v /your/data/dir:/data -it cd-hit
+docker run -v /your/data/dir:/data -it cd-hit:tagname
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
 
