@@ -45,3 +45,12 @@ docker run seqkit stats --help
 ```bash
 docker run -v your/data/directory:/data seqkit split 2 input.fa -o output -f -s 10000
 ```
+## Retrieve the image from Docker Hub
+
+```bash
+docker push jroussea/seqkit:tagname
+```
+For example, to retrieve the latest version:
+```bash
+docker push jroussea/seqkit:latest
+```
