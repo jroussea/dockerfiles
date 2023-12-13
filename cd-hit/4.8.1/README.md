@@ -55,3 +55,14 @@ To run an interactive shell
 docker run -v /your/data/dir:/data -it cd-hit
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
+
+## Retrieve the image from Docker Hub
+
+```bash
+docker push jroussea/cd-hit:tagname
+```
+For example, to retrieve the latest version:
+```bash
+docker push jroussea/cd-hit:latest
+```
+
