@@ -45,6 +45,15 @@ docker run seqkit stats --help
 ```bash
 docker run -v your/data/directory:/data seqkit split 2 input.fa -o output -f -s 10000
 ```
+
+### Interactive shell
+
+To run an interactive shell
+```bash
+docker run -v /your/data/dir:/data -it seqkit:tagname
+```
+After this command you work in the container. You can directly execute the different CD-HIT commands.
+
 ## Retrieve the image from Docker Hub
 
 ```bash
