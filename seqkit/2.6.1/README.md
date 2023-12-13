@@ -54,6 +54,16 @@ docker run -v /your/data/dir:/data -it seqkit:tagname
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
 
+## Push to Docker Hub
+1. Rename tool with username
+```bash
+docker tag seqkit:tagname <user-name>/seqkit:tagname
+```
+2. Push to Docker Hub
+```bash
+docker push <user-name>/seqkit:tagname
+```
+
 ## Retrieve the image from Docker Hub
 
 ```bash
