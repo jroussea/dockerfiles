@@ -16,7 +16,7 @@ GitHub: [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhi
 
 ## Licence
 
-[The original SeqKit license still applies to this container](https://github.com/weizhongli/cdhit/blob/master/license.txt)
+[The original CD-HIT license still applies to this container](https://github.com/weizhongli/cdhit/blob/master/license.txt)
 
 ## Build CD-HIT Docker image 
 
