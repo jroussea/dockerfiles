@@ -14,7 +14,7 @@ GitHub: [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhi
 1. Weizhong Li & Adam Godzik. Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics (2006) 22:1658-1659 
 2. Limin Fu, Beifang Niu, Zhengwei Zhu, Sitao Wu and Weizhong Li, CD-HIT: accelerated for clustering the next generation sequencing data. Bioinformatics, (2012), 28 (23): 3150-3152. doi: 10.1093/bioinformatics/bts565
 
-## Licence
+## License
 
 [The original CD-HIT license still applies to this container](https://github.com/weizhongli/cdhit/blob/master/license.txt)
 
