@@ -67,9 +67,9 @@ docker push <user-name>/seqkit:tagname
 ## Retrieve the image from Docker Hub
 
 ```bash
-docker push jroussea/seqkit:tagname
+docker pull jroussea/seqkit:tagname
 ```
 For example, to retrieve the latest version:
 ```bash
-docker push jroussea/seqkit:latest
+docker pull jroussea/seqkit:latest
 ```
