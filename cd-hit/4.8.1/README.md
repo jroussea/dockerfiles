@@ -69,10 +69,10 @@ docker push <user-name>/cd-hit:tagname
 ## Retrieve the image from Docker Hub
 
 ```bash
-docker push jroussea/cd-hit:tagname
+docker pull jroussea/cd-hit:tagname
 ```
 For example, to retrieve the latest version:
 ```bash
-docker push jroussea/cd-hit:latest
+docker pull jroussea/cd-hit:latest
 ```
 
