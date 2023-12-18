@@ -43,7 +43,7 @@ docker run seqkit stats --help
 ```
 * split a fasta file into several files containing 10000 sequences
 ```bash
-docker run -v your/data/directory:/data seqkit split 2 input.fa -o output -f -s 10000
+docker run -v your/data/directory:/data seqkit split2 input.fa -o output -f -s 10000
 ```
 
 ### Interactive shell
