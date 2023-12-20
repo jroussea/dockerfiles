@@ -75,7 +75,7 @@ docker run -v /interproscan-5.65-97.0/data:/opt/interproscan/data -v /your/data/
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
 
-## Push to Docker Hub
+### Push to Docker Hub
 1. Rename tool with username
 ```bash
 docker tag interproscan:tagname <user-name>/interproscan:tagname
@@ -85,7 +85,7 @@ docker tag interproscan:tagname <user-name>/interproscan:tagname
 docker push <user-name>/interproscan:tagname
 ```
 
-## Retrieve the image from Docker Hub
+### Retrieve the image from Docker Hub
 
 ```bash
 docker pull <user-name>/interproscan:tagname
