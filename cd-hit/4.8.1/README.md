@@ -38,7 +38,7 @@ docker run -v /your/data/dir:/data cd-hit:tagname <cd-hit-command-name> <options
 
 ### Example of use
 
-* For help with the different *CD-HIT* options
+* To get help
 ```bash
 docker run cd-hit:tagname cd-hit
 ```
