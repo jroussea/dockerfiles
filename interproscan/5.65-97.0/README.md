@@ -67,7 +67,7 @@ docker run interproscan:tagname interproscan.sh
 docker run /interproscan-5.65-97.0/data:/opt/interproscan/data -v /your/data/dir:/data -i input.fa -b output
 ```
 
-### Interactive shell
+## Interactive shell
 
 To run an interactive shell
 ```bash
@@ -75,7 +75,7 @@ docker run -v /interproscan-5.65-97.0/data:/opt/interproscan/data -v /your/data/
 ```
 After this command you work in the container. You can directly execute the different CD-HIT commands.
 
-### Push to Docker Hub
+## Push to Docker Hub
 1. Rename tool with username
 ```bash
 docker tag interproscan:tagname <user-name>/interproscan:tagname
