@@ -1,4 +1,4 @@
-# Eggnog-mapper v2.1.12 container
+# EggNOG-mapper v2.1.12 container
 
 ## Informations
 
