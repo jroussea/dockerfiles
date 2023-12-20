@@ -42,7 +42,7 @@ docker run -v /your/data/dir:/data cd-hit:tagname <cd-hit-command-name> <options
 ```bash
 docker run cd-hit:tagname cd-hit
 ```
-* Example of use: lustering with 90% identity
+* Example of use: clustering with 90% identity
 ```bash
 docker run -v /your/data/dir:/data cd-hit:tagname cd-hit -i input.fa -o output -c 0.9 -n 5 -d 0
 ```
