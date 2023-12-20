@@ -5,8 +5,7 @@
 Main tool: [CD-HIT](https://sites.google.com/view/cd-hit) \
 Version: 4.8.1
 
-Description:
-<center>**Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences**</center>
+Description: **Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences**
 
 GitHub: [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhit) 
 
